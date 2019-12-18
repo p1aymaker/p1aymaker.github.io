@@ -38,8 +38,8 @@
 				sponsor: {
 					enable: true,
 					paypal: null,
-					wechat: null,
-					alipay: null
+					wechat: 'https://www.cnblogs.com/images/cnblogs_com/zouwangblog/1477590/t_%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20190704175553.png',
+					alipay: 'https://www.cnblogs.com/images/cnblogs_com/zouwangblog/1477590/t_%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20190704174158.png'
 				},
 				github: {
 					enable: false,
@@ -279,7 +279,7 @@
 			});
 
 
-			$("#navList").append('<li><a id="blog_nav_myyoulian" class="menu" href="https://i-beta.cnblogs.com/links">友链</a><i></i></li><li><a id="blog_nav_myzanshang" class="menu" href="">赞赏</a><i></i></li><li><a id="blog_nav_myguanyu" class="menu" href="">关于</a><i></i></li>');
+			$("#navList").append('<li><a id="blog_nav_myyoulian" class="menu" href="https://www.cnblogs.com/zouwangblog/articles/11177049.html">友链</a><i></i></li><li><a id="blog_nav_myzanshang" class="menu" href="https://www.cnblogs.com/zouwangblog/articles/11340077.html">赞赏</a><i></i></li><li><a id="blog_nav_myguanyu" class="menu" href="">关于</a><i></i></li>');
 			//添加标签icon
 			$('#blog_nav_myhome').prepend('<i class="fa fa-fort-awesome" aria-hidden="true"></i>');
 			$('#blog_nav_contact').prepend('<i class="fa fa-address-book-o" aria-hidden="true"></i>');
@@ -291,10 +291,10 @@
 
 			//添加li内嵌ui
 			let guanyu = '<ul class="sub-menu">' +
-					'<li><a href=" "><i class="fa fa-meetup" aria-hidden="true"></i> 我？</a></li>' +
-					'<li><a href=""><i class="fa fa-area-chart" aria-hidden="true"></i> 统计</a></li>' +
-					'<li><a href=""><i class="fa fa-heartbeat" aria-hidden="true"></i> 监控</a></li>' +
-					'<li><a href=""><i class="iconfont icon-taohua" aria-hidden="true"></i> 主题</a></li>' +
+					'<li><a href="https://www.cnblogs.com/zouwangblog/articles/11157339.html "><i class="fa fa-meetup" aria-hidden="true"></i> 我？</a></li>' +
+					'<li><a href="https://www.cnblogs.com/zouwangblog/articles/11346906.html "><i class="fa fa-area-chart" aria-hidden="true"></i> 统计</a></li>' +
+					'<li><a href="https://www.cnblogs.com/zouwangblog/articles/11350777.html "><i class="fa fa-heartbeat" aria-hidden="true"></i> 监控</a></li>' +
+					'<li><a href="https://www.cnblogs.com/zouwangblog/articles/11350787.html"><i class="iconfont icon-taohua" aria-hidden="true"></i> 主题</a></li>' +
 					'</ul>';
 			$('#blog_nav_myguanyu').after(guanyu);
 
